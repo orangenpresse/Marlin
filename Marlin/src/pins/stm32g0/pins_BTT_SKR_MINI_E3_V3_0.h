@@ -130,7 +130,7 @@
 //
 // Temperature Sensors
 //
-#define TEMP_0_PIN                          PA0   // Analog Input "TH0"
+#define TEMP_0_PIN                          PA2   // Analog Input "TH0" // TODO CHANGEBACK PA0 is original
 #define TEMP_BED_PIN                        PC4   // Analog Input "TB0"
 
 //
