@@ -556,7 +556,7 @@
 // Above this temperature the heater will be switched off.
 // This can protect components from overheating, but NOT from shorts and failures.
 // (Use MINTEMP for thermistor short/failure protection.)
-#define HEATER_0_MAXTEMP 275
+#define HEATER_0_MAXTEMP 420
 #define HEATER_1_MAXTEMP 275
 #define HEATER_2_MAXTEMP 275
 #define HEATER_3_MAXTEMP 275
@@ -564,7 +564,7 @@
 #define HEATER_5_MAXTEMP 275
 #define HEATER_6_MAXTEMP 275
 #define HEATER_7_MAXTEMP 275
-#define BED_MAXTEMP      150
+#define BED_MAXTEMP      120
 #define CHAMBER_MAXTEMP  60
 
 /**
@@ -1379,8 +1379,8 @@
 // @section machine
 
 // The size of the printable area
-#define X_BED_SIZE 270
-#define Y_BED_SIZE 160
+#define X_BED_SIZE 250
+#define Y_BED_SIZE 165
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS 0
